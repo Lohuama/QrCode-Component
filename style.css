@@ -1,0 +1,50 @@
+body {
+    background-color: #d5e1ef;
+    position: relative;
+    height: 100vh;
+}
+
+main {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+#qrCode {
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+p {
+    font-size: 18px;
+    color: #aeb1b9;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.text {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.qrCode {
+    margin-top: 10px;
+    width: 110%;
+    text-align: left;
+    margin-left: 5%;
+}
+.attribution{
+    display: none;
+}
+@media screen and (min-width: 800px) {
+    main {
+      width: 30%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
